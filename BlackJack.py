@@ -88,7 +88,7 @@ while True:
             while (valP<21):
                 choice=input('Stand or Hit:')
                 if(choice=='Stand'):
-                    print("Dealer's Second card and card value is: {} {}".format(Dealer.player_card1,valD))
+                    print("Dealer's Second card and card value is: {} {}".format(Dealer.player_card2,valD))
                     if(valP>valD):
                         print('Player Wins!!!!!')
                         credit=credit+(bet*2)
